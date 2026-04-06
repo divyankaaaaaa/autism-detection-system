@@ -1,0 +1,7 @@
+__pycache__/
+*.pyc
+dataset/
+consolidated/
+*.h5
+*.keras
+.ipynb_checkpoints/
