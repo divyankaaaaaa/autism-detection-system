@@ -1,28 +1,73 @@
-# Detection of Autism Disorder Using Facial Emotion Recognition
+# 🧠 Autism Detection System
 
-## Overview
-This project uses deep learning to detect autism traits in children through facial emotion recognition.
+## 📌 Overview
+This project is a deep learning-based Autism Detection System that classifies images into **Autistic** and **Non-Autistic** categories using transfer learning.
 
-## Model Accuracy
-The trained CNN model achieved approximately 85–89% accuracy on the validation dataset.
+The model is built using **MobileNetV2** and optimized through fine-tuning and preprocessing techniques to improve prediction performance.
 
-## Project Structure
-- train/  : Training dataset
-- test/   : Testing dataset
-- valid/  : Validation dataset
-- consolidated/ : Processed dataset
-- autism-S-224-89.33.h5 : Trained model file
+---
 
-## Technologies Used
+## 🚀 Results
+- Achieved **~80% accuracy**
+- Balanced precision and recall across both classes
+- Improved performance using fine-tuning and learning rate optimization
+
+---
+
+## 🛠️ Tech Stack
 - Python
 - TensorFlow / Keras
-- CNN
 - OpenCV
+- NumPy, Matplotlib
 
-## How to Run
-1. Install required libraries
-2. Load the .h5 model file
-3. Run prediction script on test images
+---
 
-## Author
-Divyanka
+## 🧠 Model Details
+- Base Model: MobileNetV2 (Pre-trained on ImageNet)
+- Technique: Transfer Learning + Fine-Tuning
+- Optimizations:
+  - Reduced learning rate
+  - EarlyStopping
+  - ReduceLROnPlateau
+  - BatchNormalization & Dropout
+
+---
+
+## 📂 Project Structure
+Autism/
+├── main.py
+├── README.md
+├── requirements.txt
+├── .gitignore
+
+
+---
+
+## 📊 Dataset
+The dataset used for training is not included due to size limitations.
+
+👉 You can access it here:  
+(Add Google Drive / Kaggle link here)
+
+---
+
+## ▶️ How to Run
+
+1. Clone the repository:
+git clone https://github.com/divyankaaaaaa/autism-detection-system.git
+2. Navigate to the project
+cd autism-detection-system
+3. Install dependencies:
+pip install -r requirements.txt
+4. Run the model:
+python main.py
+
+## 💡 Future Improvements
+- Improve accuracy using EfficientNet
+- Add real-time prediction system
+- Deploy using Streamlit/Web App
+
+---
+
+## 👩‍💻 Author
+Divyanka Tripathi
