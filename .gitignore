@@ -1,0 +1,18 @@
+# Datasets (too large / private for git — see data/README.md)
+data/train/*/*
+data/val/*/*
+data/test/*/*
+!data/**/.gitkeep
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# OS/editor
+.DS_Store
+.vscode/
+
+# Model artifacts you don't want tracked (keep the final one you deploy!)
+*.h5.bak

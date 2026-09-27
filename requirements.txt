@@ -1,0 +1,9 @@
+tensorflow==2.16.1
+tf-keras==2.16.0
+streamlit==1.38.0
+numpy==1.26.4
+pillow==10.4.0
+matplotlib==3.9.0
+scikit-learn==1.5.1
+opencv-python-headless==4.10.0.84
+
